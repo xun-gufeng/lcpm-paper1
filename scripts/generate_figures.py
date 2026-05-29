@@ -224,7 +224,7 @@ def fig4():
 
     fig.suptitle(r'Figure 4: $\mathbb{Z}_5$ ANOVA Effect Sizes and $\sigma$-Group Climate Profiles',
                  fontsize=13, fontweight='bold')
-    plt.savefig(f'{OUT}fig4_climate_anova.png'); plt.close()
+    plt.savefig(f'{OUT}fig5_climate_anova.png'); plt.close()
     print("Fig4 done")
 
 
@@ -272,7 +272,7 @@ def fig5():
 
     fig.suptitle('Figure 5: Da Si Tian Boundary Jumps — Phase Transition Signatures',
                  fontsize=13, fontweight='bold')
-    plt.savefig(f'{OUT}fig5_dst_boundary_jumps.png'); plt.close()
+    plt.savefig(f'{OUT}fig6_dst_boundary_jumps.png'); plt.close()
     print("Fig5 done")
 
 
@@ -308,7 +308,7 @@ def fig6():
 
     fig.suptitle('Figure 6: Noise Perturbation — All-or-Nothing Degradation ($\\rho_c = 0.80$)',
                  fontsize=13, fontweight='bold')
-    plt.savefig(f'{OUT}fig6_noise_perturbation.png'); plt.close()
+    plt.savefig(f'{OUT}fig4_noise_perturbation.png'); plt.close()
     print("Fig6 done")
 
 
